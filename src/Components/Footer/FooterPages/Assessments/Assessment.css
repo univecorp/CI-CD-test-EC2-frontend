@@ -1,0 +1,185 @@
+.main-bod {
+  margin-top: 5rem;
+}
+.assesections {
+  background: linear-gradient(
+    90deg,
+    #26235d -57.36%,
+    #1e3cba 50.2%,
+    #26235d 118.37%
+  );
+  height: 70vh;
+  position: relative;
+}
+.content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.main-cont-assessment {
+  background: linear-gradient(
+    90deg,
+    #26235d -57.36%,
+    #1e3cba 50.2%,
+    #26235d 118.37%
+  );
+  height: 70vh;
+}
+
+.main-head-two-assessment {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 4vw;
+  font-weight: 600;
+  line-height: 50px;
+  color: white;
+}
+.assessment-main-divs {
+  box-shadow: 2px 3px 15px -1px rgba(138, 134, 134, 0.75);
+  -webkit-box-shadow: 2px 3px 15px -1px rgba(138, 134, 134, 0.75);
+  -moz-box-shadow: 2px 3px 15px -1px rgba(138, 134, 134, 0.75);
+}
+.assessment-para {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 2vw;
+  font-weight: 500;
+  color: white;
+  line-height: 40px;
+  margin-top: 2rem;
+}
+.assessment-btns {
+  font-family: "Baloo Da 2", cursive;
+  background: #a9cde4;
+  color: #1e3cba;
+  font-weight: 500;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+}
+.assessment-head {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500 !important;
+  color: #26235d;
+}
+.ass-course-name {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 600;
+  font-size: 30px;
+
+  color: #1e3cba;
+}
+.prev-btn {
+  font-family: "Baloo Da 2", cursive;
+  background: #26235d;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+}
+.prev-btn:hover {
+  font-family: "Baloo Da 2", cursive;
+
+  background: #a9cde4;
+  color: #1e3cba;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+}
+
+@media only screen and (max-width: 765px) {
+  .assesections {
+    height: 50vh;
+  }
+  .content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+  }
+
+  .main-head-two-assessment {
+    font-family: "Baloo Da 2", cursive;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    color: white;
+    text-align: center;
+  }
+  .assessment-para {
+    font-family: "Baloo Da 2", cursive;
+    font-size: 13px;
+    line-height: 31.5px;
+    font-weight: 500;
+    color: white;
+    
+   
+    margin-top: 2rem;
+    text-align: center;
+  }
+.row-one{
+  margin-top: -0.2rem;
+}
+  .MButtons {
+    text-align: center;
+  }
+  .assessment-head {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .ass-course-name {
+    font-size: 20px;
+    text-align: center !important;
+  }
+
+  .assessment-btns {
+    font-family: "Baloo Da 2", cursive;
+    background: #a9cde4;
+    color: #1e3cba;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .prev-btn {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 15px !important;
+    margin: 10px auto !important;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .assesections {
+    height: 40vh;
+  }
+
+  .main-head-two-assessment {
+    font-family: "Baloo Da 2", cursive;
+    font-size: 6vw;
+    font-weight: 600;
+    color: white;
+  }
+  .assessment-para {
+    font-family: "Baloo Da 2", cursive;
+    font-size: 3vw;
+    font-weight: 500;
+    color: white;
+    line-height: 40px;
+    margin-top: 2rem;
+  }
+  .assessment-btns {
+    font-family: "Baloo Da 2", cursive;
+    background: #a9cde4;
+    color: #1e3cba;
+    font-weight: 500;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+  }
+}

@@ -1,0 +1,154 @@
+.main-worksho-cont{
+  margin-bottom: 4.5rem;
+}
+
+.header-workshop {
+  color: #1c3a99;
+  font-size: 70px;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 800;
+  margin-bottom: 0.9rem;
+  margin-top: 10rem;
+
+  margin-top: 12rem;
+}
+.sub-header-workshop {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  color: #26235d;
+  font-size: 18px;
+}
+.workimg {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(27, 24, 190, 0.73)
+    ),
+    url("./Images/image1.png");
+  background-size: cover;
+  color: white;
+  border-radius: 20px;
+  height: 300px;
+  padding: 20px;
+  position: relative;
+  width: 370px;
+  height: 300px;
+  cursor: pointer;
+}
+.workimg2 {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(27, 24, 190, 0.73)
+    ),
+    url("./Images/image2.png");
+  background-size: cover;
+  color: white;
+  border-radius: 20px;
+  height: 300px;
+  padding: 20px;
+  position: relative;
+  width: 370px;
+  height: 300px;
+  cursor: pointer;
+}
+.workimg3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(27, 24, 190, 0.73)
+    ),
+    url("./Images/image3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 20px;
+  width: 370px;
+  height: 300px;
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.workimg4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(27, 24, 190, 0.73)
+    ),
+    url("./Images/image4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 20px;
+  width: 370px;
+  height: 300px;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.worktext {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  font-family: "Baloo Da 2", normal;
+  right: 0;
+  left: 1.4rem;
+  font-size: 20px;
+}
+.workshop-container {
+  max-width: 1340px;
+  margin-top: 4rem;
+}
+.slidermx {
+  margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+  .workshop-container {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .workimg {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+  }
+  .workimg2 {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+  }
+  .workimg3 {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+  }
+  .workimg4 {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+  }
+  .header-workshop {
+    font-size: 40px;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .worktext {
+    left: 0.8rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-workshop {
+    font-size: 40px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  .header-company {
+    font-size: 40px;
+    padding-top: 4rem;
+  }
+}

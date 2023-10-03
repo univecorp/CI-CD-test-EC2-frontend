@@ -1,0 +1,54 @@
+.DashJobSuccess {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #00c714;
+}
+.userPerfomGray {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  color: rgba(33, 40, 50, 0.3);
+  margin-bottom: 10px;
+}
+.userperfomSmall {
+  font-size: 22px;
+  color: black;
+  font-weight: 500;
+}
+.DashChart {
+  width: 35%;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  margin: 20px;
+  height: auto;
+  padding-left: 20px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .DashJobSuccess {
+    font-size: 18px;
+    padding-top: 15px;
+    margin: 0;
+  }
+  .userPerfomGray {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .userperfomSmall {
+    font-size: 18px;
+  }
+  .DashChart {
+    width: auto;
+  }
+  .DashJobRatings {
+    margin: 0px;
+  }
+  .dashsm {
+    text-align: left;
+  }
+  .smNone {
+    display: none;
+  }
+}

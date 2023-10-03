@@ -1,0 +1,19 @@
+.e-button {
+  font-size: 12px;
+
+  white-space: nowrap;
+  border-radius: 10px;
+}
+#add-btn {
+  background-color: #3e54ac;
+  border: none;
+}
+
+#delete-btn {
+  background-color: #e6617e;
+  border: none;
+}
+#edit-btn {
+  background-color: #588157;
+  border: none;
+}

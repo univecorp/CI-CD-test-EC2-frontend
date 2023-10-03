@@ -1,0 +1,104 @@
+.skill-card {
+  cursor: pointer;
+  /* border: 0.8px solid gray; */
+  width: 410px;
+  border-radius: 10px;
+  height: 450px;
+  margin-bottom: 4rem;
+  background-color: #ececec;
+  box-shadow: -2px 15px 10px -21px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 15px 10px -21px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 15px 10px -21px rgba(0, 0, 0, 0.75);
+}
+
+.skill-img {
+  width: 100%;
+  height: 50%;
+  /* padding: 10px; */
+
+  border: none;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.skill-card:hover .skill-img {
+  opacity: 0.8;
+}
+
+.cat-skill-span {
+  color: #26235d;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Baloo Da 2", cursive;
+}
+
+.skill-title {
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 600;
+  font-size: 18px;
+
+  line-height: 27px;
+  padding-left: 1rem;
+  margin-top: 1px;
+}
+.cat-skill-div {
+  padding-left: 1rem;
+  padding-top: -1rem;
+}
+.skills-para {
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .skill-card {
+    width: 75vw;
+
+    height: 50vh;
+  }
+
+  .skill-img {
+    width: 100%;
+  }
+
+  .cat-skill-span {
+    font-size: 8px;
+    font-weight: 600;
+  }
+
+  .skill-title {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: -0.5rem !important;
+  }
+  .skills-para {
+    font-size: 12px;
+    margin-top: -0.5rem;
+  }
+  .cat-skill-div {
+    margin-top: -0.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skill-card {
+    width: 40vw;
+
+    height: 42vh;
+  }
+
+  .skill-title {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: -0.5rem !important;
+  }
+
+  .skills-para {
+    font-size: 11.9px;
+    margin-top: 0.5rem;
+  }
+}

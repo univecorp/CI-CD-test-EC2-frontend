@@ -1,0 +1,61 @@
+.carding-main{
+
+border-radius: 20px;
+
+}
+#special-card{
+    box-shadow: 1px 2px 20px 2px rgba(135,124,124,0.77);
+-webkit-box-shadow: 1px 2px 20px 2px rgba(135,124,124,0.77);
+-moz-box-shadow: 1px 2px 20px 2px rgba(135,124,124,0.77);
+}
+
+.title-plan{
+    font-family: "Baloo Da 2", cursive;
+    color: #265ab8;
+    font-size: 40px;
+    font-weight: 700;
+}
+.pricing-text{
+    font-family: "Baloo Da 2", cursive;
+    color: #265ab8;
+    font-weight: 500;
+    font-size: 22px;
+}
+.icon{
+    color: #e6042e;
+   
+}
+.money{
+    color: #e70932;
+    font-family: "Baloo Da 2", cursive;
+}
+.month{
+    font-family: "Baloo Da 2", cursive;
+    color: #265ab8;
+    font-weight: 700;
+}
+.dan-money{
+    color: #e6042e;
+}
+.foot-card{
+    color: white;
+    cursor:pointer;
+    background: linear-gradient(
+        90deg,
+        #26235d -57.36%,
+        #1e3cba 50.2%,
+        #26235d 118.37%
+      );
+      font-family: "Baloo Da 2", cursive;   
+    
+}
+.desc-para{
+    font-family: "Baloo Da 2", cursive;
+    color: #265ab8;
+    font-weight: 400;
+}
+.sub-desc-para{
+    font-family: "Baloo Da 2", cursive;
+    color: #265ab8;
+    font-weight: 400;
+}

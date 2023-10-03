@@ -1,0 +1,175 @@
+.jobscard {
+  width: 370px;
+  min-height: 400px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  /* border: 1px solid #1e3cba; */
+  border: none;
+  -webkit-box-shadow: 0px 6px 15px -9px rgba(30, 60, 186, 1);
+  -moz-box-shadow: 0px 6px 15px -9px rgba(30, 60, 186, 1);
+  box-shadow: 0px 6px 15px -9px rgba(30, 60, 186, 1);
+}
+
+.jobsBookmarks {
+  position: absolute;
+
+  width: 15px;
+  right: 18px;
+  top: 15px;
+}
+
+.jobsButtonPosi {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 19rem;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 12px;
+}
+
+.jobsCardImg {
+  width: 70px;
+  height: 70px;
+  /* border: 1px solid #1e3cba; */
+  border-radius: 10px;
+  padding: 5px;
+  object-fit: contain;
+  margin: 5px;
+}
+
+.JobsCardName {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 600;
+  font-size: 17px;
+  color: #1e3cba;
+  margin: 0;
+}
+
+.JobsdName {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1e3cba;
+  padding: 0;
+  margin: 0;
+}
+
+.JobsCardSmBold {
+  font-family: "Baloo Da 2", cursive;
+
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+  color: #1e3cba;
+}
+
+.JobsCardSmall {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+  color: #76749e;
+}
+
+.JobsCardPara {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #555;
+  margin-top: 8px;
+}
+.jobsBadge1 {
+  font-family: "Baloo Da 2", cursive !important;
+  background: #e28d5c;
+  font-size: 12px;
+  margin-top: 0.2rem;
+  color: #26235d;
+  margin-right: 8px;
+  padding: 10px;
+  font-weight: 500;
+}
+.jobsBadge2 {
+  font-family: "Baloo Da 2", cursive !important;
+  color: #555;
+  margin-right: 8px;
+  padding: 5px;
+  font-weight: 400;
+}
+.jobsBadge3 {
+  font-family: "Baloo Da 2", cursive !important;
+  background: #1e9eba;
+  padding: 7px;
+}
+.view-btns {
+  font-family: "Baloo Da 2", cursive;
+  background: #1e3cba;
+
+  color: white !important;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  align-self: flex-end;
+}
+.h-border {
+  color: #1e3cba;
+}
+
+.edit-btns {
+  background: #385e3c;
+
+  color: white !important;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.delete-btns {
+  background: #df3f3f;
+
+  color: white !important;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-left: 1rem;
+}
+
+.right-align {
+  text-align: right;
+  padding: 0; /* Remove any existing padding */
+}
+
+@media only screen and (max-width: 767px) {
+  .jobscard {
+    width: 340px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+  .delete-btns {
+    margin-top: 0.7rem;
+  }
+  .mobilefiler {
+    width: 140px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .jobscard {
+    width: 350px;
+    min-height: 450px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+  .delete-btns {
+    margin-top: 0.7rem;
+  }
+}

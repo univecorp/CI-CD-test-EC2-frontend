@@ -1,0 +1,104 @@
+.dashBoard {
+  min-height: 80vh;
+}
+.dashLeft {
+  background-image: linear-gradient(125deg, #3b1bce, #2f52dd);
+  color: white;
+  border-radius: 15px;
+}
+.tog-bars {
+  margin-left: -0.5rem;
+}
+.NavName {
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 600;
+}
+.vrh {
+  min-height: 50vh;
+  border-right-width: 3px;
+}
+
+.dashIcon {
+  font-size: 20px;
+  margin-right: 0.8rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+.DashRight {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.activeLink {
+  font-weight: bold;
+  color: red;
+  background-color: violet;
+}
+.styless {
+  background-color: #ecf2ff;
+}
+.dashMainHead {
+  position: relative;
+  height: auto;
+}
+.sidebar {
+  background: linear-gradient(
+    90deg,
+    #564df5 -57.36%,
+    #1d3688 50.2%,
+    #272285 118.37%
+  );
+  color: #fff;
+  min-height: 100vh;
+  width: 250px;
+  transition: all 0.5s;
+  position: sticky;
+  top: 0;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 30px;
+  font-family: "Baloo Da 2", cursive;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.dashHead {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.dashHead:hover {
+  color: #a7a5bd;
+  transition: all 0.3s;
+}
+.actives {
+  background: #fff;
+  color: #000;
+}
+.icons,
+.link_text {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.curso {
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .smfix {
+    max-width: 85%;
+  }
+}

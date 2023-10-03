@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+/* header sidenav style */
+.ss {
+  width: 100px;
+  background-color: rgb(240, 238, 238);
+}
+
+/* header style */
+.littleFont {
+  font-size: 0.8rem;
+}
+
+/* career */
+.invert {
+  transform: rotateY(180deg);
+}
+
+/* header  side nav */
+.side-nav-btn {
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  box-shadow: 0 5px #999;
+}
+
+.side-nav-btn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media (max-width: 550px) {
+  .align {
+    margin: 1rem 4rem;
+  }
+}

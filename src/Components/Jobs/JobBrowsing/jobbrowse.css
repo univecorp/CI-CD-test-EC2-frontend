@@ -1,0 +1,62 @@
+.job-bg {
+  background-position: center center;
+  padding-bottom: 2rem;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+.header-job {
+  background-color: rgb(231, 250, 245);
+}
+
+.jobs-header {
+  font-family: "Baloo Da 2", cursive;
+  color: #265ab8;
+  padding-top: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.jobSearch {
+  width: 95%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none; /* Remove default outline */
+  margin-bottom: 20px;
+}
+
+.jobSearch:focus {
+  border-color: #555;
+  box-shadow: 0 0 5px #555;
+}
+.jobSearch::placeholder {
+  color: black;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust margin top as needed */
+}
+
+.custom-pagination .page-link {
+  background-color: #ffffff; /* Replace with your desired button color */
+  color: #281c96; /* Replace with your desired text color */
+  border-color: #a5a5a5; /* Replace with your desired border color */
+}
+
+.custom-pagination .page-link:hover {
+  background-color: #949494; /* Replace with your desired hover button color */
+  color: #ffffff; /* Replace with your desired hover text color */
+  border-color: #949494; /* Replace with your desired hover border color */
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: #1a1ca1; /* Replace with your desired active button color */
+  color: #ffffff; /* Replace with your desired active text color */
+  border-color: #1a1ca1; /* Replace with your desired active border color */
+}

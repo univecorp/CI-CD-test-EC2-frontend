@@ -1,0 +1,49 @@
+.contact-header{
+    font-family: "Baloo Da 2", cursive;
+    color: #265ab8;
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 5rem;
+}
+.main-body-contact{
+    margin-top: -25rem;
+}
+
+.cont-add{
+    font-family: "Baloo Da 2", cursive;
+    color: #265ab8;
+    font-size: 64px;
+    font-weight: 800;
+}
+.cont-par{
+    font-family: "Baloo Da 2", cursive;
+    color: #26235d;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cont-contant{
+    font-family: "Baloo Da 2", cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: #265ab8;
+
+}
+.cont-main{
+    font-family: "Baloo Da 2", cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: #26235d;
+}
+@media only screen and (max-width: 700px) {
+    .main-body-contact{
+        margin-top: -2rem;
+    }
+    .contact-header{
+      
+        font-size: 44px;
+        font-weight: 800;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+
+}

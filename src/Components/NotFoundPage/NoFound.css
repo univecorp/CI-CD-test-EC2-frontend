@@ -1,0 +1,9 @@
+.no-found-header {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 4rem;
+  color: #1e3cba;
+  cursor: pointer;
+}

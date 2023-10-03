@@ -1,0 +1,66 @@
+.first-sco-col {
+  margin-top: 1.8rem;
+}
+
+.scholarship-head {
+  font-family: "Baloo Da 2", cursive;
+  color: #265ab8;
+  font-size: 50px;
+  font-weight: 800;
+}
+.scholar-para {
+  font-family: "Baloo Da 2", cursive;
+  color: #26235d;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+.scholar-form {
+  font-family: "Baloo Da 2", cursive;
+  color: #265ab8;
+  font-size: 50px;
+  font-weight: 800;
+}
+.sel-scholar {
+  font-family: "Baloo Da 2", cursive !important;
+}
+::placeholder {
+  font-family: "Baloo Da 2", cursive !important;
+}
+
+/* for mobile */
+@media only screen and (max-width: 700px) {
+  .scholarship-head {
+    font-size: 25px;
+    line-height: 37.5px;
+  }
+  .scholar-para {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+  }
+  .scholar-form {
+    font-size: 25px;
+    line-height: 37.5px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .scholarship-head {
+    font-size: 35px;
+    line-height: 52.5px;
+  }
+  .scholar-para {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+  }
+  .scholar-form {
+    font-size: 35px;
+    line-height: 52.5px;
+  }
+}

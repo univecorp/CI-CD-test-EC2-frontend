@@ -1,0 +1,13 @@
+.user-analytics-header {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.chart-container {
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}

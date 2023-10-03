@@ -1,0 +1,69 @@
+.main-head-car{
+
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 800;
+    font-size: 40px;
+    color: #1e3cba;
+    line-height: 60px;
+    margin-left: 1.2rem;
+}
+.main-head-para{
+    font-family: "Baloo Da 2", cursive;
+    color: #26235d;
+}
+.grow-head{
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 800;
+    color: #1e3cba;
+    font-size: 40px;
+    line-height: 60px;
+}
+.grow-para{
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 500;
+    color: #26235d;
+    font-size: 20px;
+}
+.inside-unive{
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 800;
+    color: #1e3cba;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.inside-unive-para{
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 500;
+    color: #26235d;
+    font-size: 20px;
+}
+.act{
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 500;
+    color: #1e3cba;
+}
+.act-header{
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 800;
+    color: #1e3cba;
+    font-size: 40px;
+    line-height: 60px;
+}
+.act-header-para{
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 500;
+    color: #26235d;
+    font-size: 20px;
+}
+.faq-head{
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 800;
+    color: #1e3cba;
+    
+}
+.faq-head-para{
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 500;
+    color: #26235d;
+}

@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Poppins&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap");
+.sharebox-certificate {
+  /* background-color: #faf5f5; */
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+  /* border-radius: 5px; */
+  margin-top: 4rem;
+}
+.share-text {
+  color: #1e3cba;
+  font-family: "Baloo Da 2", cursive;
+  white-space: nowrap;
+  font-weight: 600;
+}
+/* .CertificateSumBut2 {
+  background-color: #1e3cba;
+ 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: bold;
+  cursor: pointer;
+} */
+
+.ShareCertificate {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 250px;
+}
+
+.App {
+  font-family: "Baloo Da 2", cursive;
+  /* display: flex;
+  padding: 15px; */
+}
+.Meta {
+  flex-grow: 1;
+  /* padding-right: 15px; */
+}
+.header {
+  margin-left: 30rem;
+  margin-top: 2rem;
+  color: #1e3cba;
+}
+
+.Meta button {
+  /* padding: 10px 15px; */
+  border: 2px solid #1e3cba;
+  background-color: #1e3cba;
+  font-family: inherit;
+
+  /* margin: 20px 0; */
+  width: 25%;
+  text-align: center;
+  margin-left: 30rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.App #downloadWrapper {
+  padding: 20px;
+  margin-left: 5rem;
+}
+.App #certificateWrapper {
+  box-shadow: 0 0 5px #000;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.App #certificateWrapper img {
+  display: block;
+}
+.App #certificateWrapper p {
+  font-family: "Italianno", cursive;
+  margin: 0;
+  position: absolute;
+  left: 520px;
+  top: 380px;
+  font-size: 60pt;
+}
+.App #certificateWrapper p.certificate-new-course {
+  font-family: "Baloo Da 2", cursive;
+  margin: 0;
+  position: absolute;
+  left: 680px;
+  top: 532px !important;
+  font-size: 15pt;
+  font-weight: 600;
+}
+.App #certificateWrapper p.certificate-new-course-id {
+  font-family: "Baloo Da 2", cursive;
+  margin: 0;
+  position: absolute;
+  left: 320px;
+  top: 868px !important;
+  font-size: 8pt;
+  font-weight: 500;
+}
+
+.App #certificateWrapper p.certificate-new-course-date {
+  font-family: "Baloo Da 2", cursive;
+  margin: 0;
+  position: absolute;
+  left: 370px;
+  top: 850.5px !important;
+  font-size: 8pt;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 700px) {
+  .ShareCertificate {
+    padding: 0px 20px;
+  }
+
+  .header {
+    margin-left: 3rem;
+    margin-top: 2rem;
+  }
+
+  .Meta button {
+    margin-left: 3rem;
+    width: 65%;
+
+    white-space: nowrap;
+  }
+
+  .App #downloadWrapper {
+    margin-left: 0.1rem;
+  }
+
+  .App #certificateWrapper p {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 150%;
+  }
+  .App #certificateWrapper p.certificate-new-course {
+    position: absolute;
+    left: 169.8px;
+    white-space: nowrap;
+    top: 106.6px !important;
+    font-size: 4pt;
+    font-weight: 600;
+  }
+  .App #certificateWrapper p.certificate-new-course-id {
+    position: absolute;
+    left: 110px;
+    top: 213px !important;
+    font-size: 3pt;
+    font-weight: 600;
+  }
+
+  .App #certificateWrapper p.certificate-new-course-date {
+    left: 102px;
+    top: 208px !important;
+    font-size: 3pt;
+    font-weight: 600;
+  }
+
+  .App #certificateWrapper img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    margin-left: 3rem;
+    margin-top: 2rem;
+  }
+
+  .Meta button {
+    margin-left: 3rem;
+    white-space: nowrap;
+    width: 45%;
+  }
+
+  .App #downloadWrapper {
+    margin-left: 0.1rem;
+  }
+
+  .App #certificateWrapper p {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 350%;
+    /* margin-left: -2rem; */
+  }
+  .App #certificateWrapper p.certificate-new-course {
+    position: absolute;
+    left: 380px;
+    white-space: nowrap;
+    top: 250px !important;
+    font-size: 8pt;
+    font-weight: 600;
+  }
+  .App #certificateWrapper p.certificate-new-course-id {
+    position: absolute;
+    left: 192px;
+    top: 407px !important;
+    font-size: 4pt;
+    font-weight: 400;
+  }
+
+  .App #certificateWrapper p.certificate-new-course-date {
+    position: absolute;
+    left: 192px;
+    top: 399px !important;
+    font-size: 4pt;
+    font-weight: 400;
+  }
+
+  .App #certificateWrapper img {
+    max-width: 100%;
+  }
+}

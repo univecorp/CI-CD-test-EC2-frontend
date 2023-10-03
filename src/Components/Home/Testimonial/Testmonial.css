@@ -1,0 +1,186 @@
+.avatar {
+  border: 1px solid rgba(#fff, 0.3);
+  max-width: 5rem;
+  max-height: 5rem;
+}
+.cardDemo {
+  border: 2px solid #3498db;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.card-text {
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: medium;
+}
+.testColor {
+  text-align: left;
+}
+.testiName {
+  color: #1c3a99;
+}
+.testi-container {
+  max-width: 1380px;
+}
+
+.testimonis {
+  position: relative;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-div-review {
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+
+  background-image: url("https://unive-web-media.s3.ap-south-1.amazonaws.com/Website+Media/UniveHome+Testimonials/banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  margin-top: 15rem;
+}
+.review-header {
+  font-family: "Baloo Da 2", ExtraBold;
+  font-size: 64px;
+  line-height: 96px;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 8rem;
+  color: #ffffff !important;
+}
+
+.second-div-review {
+  width: 70%;
+  background-image: url("https://unive-web-media.s3.ap-south-1.amazonaws.com/Website+Media/UniveHome+Testimonials/Group+36+(1).png");
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  height: 546px;
+  border-radius: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+}
+
+.second-header {
+  color: #1e3cba;
+  font-family: "Baloo Da 2", Medium;
+  font-size: 36px;
+  line-height: 54px;
+  overflow: hidden;
+  margin-left: 4rem;
+  width: 40%;
+}
+.imageDiv {
+  width: 45%;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.imageDiv:hover {
+  transform: scale(1.04);
+}
+
+.testup {
+  margin-top: 8rem;
+  margin-right: 4rem;
+}
+/* mobile version */
+@media only screen and (max-width: 765px) {
+  .testimonis {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+  .main-div-review {
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-size: 100% 180px;
+    margin-top: 8rem;
+  }
+  .review-header {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 2rem;
+  }
+  .second-div-review {
+    height: 160px;
+    margin: 0 auto;
+    top: 35%;
+    flex-direction: row;
+  }
+  .second-header {
+    color: #1e3cba;
+    font-family: "Baloo Da 2", Medium;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 40px;
+  }
+
+  .imageDiv {
+    width: 45%;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-right: -2.2rem;
+  }
+  .testup {
+    margin-top: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .testimonis {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+  .main-div-review {
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-size: 100% 300px;
+    margin-top: 18rem;
+  }
+  .review-header {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 3rem;
+  }
+  .second-div-review {
+    height: 300px;
+    margin: 0 auto;
+    top: 60%;
+    flex-direction: row;
+  }
+  .second-header {
+    color: #1e3cba;
+    font-family: "Baloo Da 2", Medium;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 30px;
+  }
+
+  .imageDiv {
+    width: 52%;
+    margin-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+  .testup {
+    margin-top: 4rem;
+  }
+}

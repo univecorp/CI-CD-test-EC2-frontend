@@ -1,0 +1,505 @@
+.main-containers {
+  background-image: url("./contributor.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* width: 900px; */
+  height: 80vh;
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+.content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.centered-text {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  color: #1e3cba;
+  margin-bottom: 40px;
+}
+
+.centered-para {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #1e3cba;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.cont-btn {
+  text-align: center;
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 15px;
+  background-color: #1e3cba;
+  border-radius: 5px;
+  border: none;
+}
+
+.contribute2nd {
+  margin-top: 6rem;
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+.dots {
+  border: 2px dotted #1e3cba;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 3rem;
+}
+.dotesPara {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1e3cba;
+  margin-bottom: 25px;
+}
+.dotesText {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1e3cba;
+  margin-bottom: 20px;
+}
+
+.dotsm {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #1e3cba;
+  padding-top: 2rem;
+}
+.dotsImg {
+  padding-left: 3rem;
+}
+.contribute3 {
+  margin-top: 6rem;
+  background: linear-gradient(
+    90deg,
+    #26235d -57.36%,
+    #1c3a99 50.2%,
+    #26235d 118.37%
+  );
+  border-radius: 30px;
+}
+.contribute3Head {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 5rem;
+  text-align: center;
+}
+.contribute3Head2 {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.contribute3Row {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.contribute3Para {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.contribute3Text {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.contriDiv {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.contriTexts {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 24px;
+  color: #1e3cba;
+  margin-bottom: 3rem;
+}
+.ContriButton {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  background: #1e3cba;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: #ffffff;
+}
+.contrifaq {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 50px;
+  color: #1e3cba;
+  margin-bottom: 2rem;
+}
+.contrifaqpara {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+.accordion-header {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 40px;
+}
+.accordion-body {
+  font-family: "Baloo Da 2", cursive;
+}
+@media only screen and (max-width: 700px) {
+  .main-containers {
+    height: 55vh;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .content {
+    position: relative;
+    padding-top: 0rem;
+    width: 100%;
+  }
+  .centered-text {
+    font-size: 40px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  .centered-para {
+    width: 90%;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1e3cba;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem !important;
+  }
+  .cont-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #1e3cba;
+    border-radius: 5px;
+    border: none;
+  }
+  .contribute2nd {
+    margin-top: 4rem;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .dots {
+    border: 2px dotted #1e3cba;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2.5rem;
+  }
+  .dotesPara {
+    font-family: "Baloo Da 2", cursive;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 25px;
+  }
+  .dotesText {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .dotsm {
+    font-size: 11px;
+    line-height: 15px;
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  .dotsImg {
+    width: 150px;
+    margin-left: 0.5rem;
+  }
+  .dotspan {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  /* ul {
+    padding-left: 8px;
+  } */
+
+  .contribute3 {
+    margin-top: 4rem;
+  }
+  .contribute3Head {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #ffffff;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  .contribute3Head2 {
+    font-size: 20px;
+    line-height: 29px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .contribute3Row {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+  .contribute3Para {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+  .contribute3Text {
+    font-family: "Baloo Da 2", cursive;
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .othoba {
+    margin-bottom: 2rem;
+  }
+  .contriTexts {
+    font-size: 30px;
+    line-height: 24px;
+  }
+  .contrifaq {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1e3cba;
+    margin-bottom: 2rem;
+  }
+  .contrifaqpara {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-containers {
+    height: 60vh;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    position: relative;
+  }
+  .content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .centered-text {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1e3cba;
+    margin-bottom: 20px;
+  }
+
+  .centered-para {
+    font-size: 17px;
+    line-height: 35px;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+  .contribute2nd {
+    margin-top: 6rem;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  .dots {
+    border: 2px dotted #1e3cba;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3rem;
+  }
+  .dotesPara {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1e3cba;
+    margin-bottom: 25px;
+  }
+  ul {
+    padding-left: 8px;
+  }
+  .dotesText {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1e3cba;
+    margin-bottom: 20px;
+  }
+
+  .dotsm {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #1e3cba;
+  }
+  .dotspan {
+    font-size: 14px;
+  }
+  .dotsImg {
+    padding-left: 0rem;
+    width: 180px;
+  }
+  .contribute3 {
+    margin-top: 6rem;
+    background: linear-gradient(
+      90deg,
+      #26235d -57.36%,
+      #1c3a99 50.2%,
+      #26235d 118.37%
+    );
+    border-radius: 30px;
+  }
+  .contribute3Head {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  .contribute3Head2 {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .contribute3Row {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+  .contribute3Para {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+  .contribute3Text {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .contriDiv {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  .contriTexts {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 24px;
+    color: #1e3cba;
+    margin-bottom: 3rem;
+  }
+  .ContriButton {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    background: #1e3cba;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #ffffff;
+  }
+  .contrifaq {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1e3cba;
+    margin-bottom: 2rem;
+  }
+  .contrifaqpara {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

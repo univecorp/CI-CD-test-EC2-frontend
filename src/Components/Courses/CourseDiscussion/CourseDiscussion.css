@@ -1,0 +1,44 @@
+.main-head-query-instructor {
+  color: #26235d;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Baloo Da 2", cursive;
+  font-size: 40px;
+}
+
+.main-discussion {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.form-hr-disc {
+  padding-left: 0.2rem;
+}
+
+.input-modal-hr-disc {
+  width: 100%;
+  padding: 10px;
+  color: #26235d;
+  border-radius: 5px;
+  border: 1px solid gray;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.submit-input-tag-disc {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.submit-input-tag-disc:hover {
+  color: white;
+  background-color: #1e3cba;
+}
+
+.submit-input-tag-disc:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}

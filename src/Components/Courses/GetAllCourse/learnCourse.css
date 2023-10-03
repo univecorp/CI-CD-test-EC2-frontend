@@ -1,0 +1,131 @@
+.banner-indis-course {
+  font-size: 64px;
+  color: white;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 700;
+  line-height: 96px;
+}
+.input-search-courses {
+  width: 60%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 18rem;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(129, 125, 125, 0.781);
+}
+
+.input-search-courses::placeholder {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e3cba;
+}
+
+.input-search-courses:focus {
+  outline: none;
+  border: 1px solid rgb(240, 231, 231);
+}
+
+.main-head {
+  background: linear-gradient(
+    90deg,
+    #26235d -57.36%,
+    #1e3cba 50.2%,
+    #26235d 118.37%
+  );
+  height: 50vh;
+  width: 100%;
+  position: relative;
+}
+
+.content-course {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+.our-courses {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 64px;
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 700;
+  line-height: 96px;
+}
+
+.course-flt-btn {
+  margin-left: 2rem !important;
+  font-family: "Baloo Da 2", cursive !important;
+  cursor: pointer;
+  white-space: nowrap;
+  color: white;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+
+  border: none;
+  background-color: #1e3cba;
+}
+.course-flt-btn {
+  display: inline-block;
+  border-bottom: 4px solid transparent;
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.course-flt-btn:hover {
+  border-bottom-color: #26235d;
+  transform: scale(1.1, 1.1);
+}
+
+@media only screen and (max-width: 760px) {
+  .course-flt-btn {
+    margin-left: 0.8rem !important;
+
+    font-size: 12px;
+  }
+  .banner-indis-course {
+    font-size: 20px;
+
+    line-height: 30px;
+  }
+
+  .main-head {
+    height: 20vh;
+  }
+  .our-courses {
+    font-size: 30px;
+
+    line-height: 45px;
+  }
+
+  .input-search-courses {
+    width: 80%;
+
+    margin-left: 1rem;
+    margin-top: -2rem;
+  }
+}
+
+/* * Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner-indis-course {
+    font-size: 40px;
+
+    line-height: 60px;
+  }
+  .main-head {
+    height: 30vh;
+  }
+
+  .input-search-courses {
+    width: 90%;
+
+    border-radius: 5px;
+    margin-left: 3rem;
+  }
+}

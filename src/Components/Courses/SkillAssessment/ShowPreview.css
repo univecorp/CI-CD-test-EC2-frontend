@@ -1,0 +1,40 @@
+.start-btn-skills {
+  padding: 12px;
+  width: 75%;
+  border-radius: 10px;
+  background-color: #1e3cba;
+  border: none;
+  color: white;
+  font-size: 22px;
+  margin-left: 7rem;
+}
+.smallText-indi {
+  font-family: "Baloo Da 2", cursive;
+  color: #265ab8;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.title-plan-skill {
+  font-family: "Baloo Da 2", cursive;
+  color: #265ab8;
+  font-size: 30px;
+  font-weight: 700;
+}
+.icon {
+  color: #e6042e;
+}
+.carding-main {
+  border-radius: 20px;
+}
+.skill-text {
+  color: #265ab8;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+#special-card {
+  box-shadow: 1px 2px 20px 2px rgba(135, 124, 124, 0.77);
+  -webkit-box-shadow: 1px 2px 20px 2px rgba(135, 124, 124, 0.77);
+  -moz-box-shadow: 1px 2px 20px 2px rgba(135, 124, 124, 0.77);
+}

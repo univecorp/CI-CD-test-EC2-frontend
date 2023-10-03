@@ -1,0 +1,121 @@
+.instsections {
+  /* background-color: #265ab8; */
+  background-image: url("./instructor.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+}
+.instructorHead {
+  font-family: "Baloo Da 2", cursive;
+  color: #265ab8;
+  font-size: 64px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+.instructorPara {
+  font-family: "Baloo Da 2", cursive;
+  color: #265ab8;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.contentInsterc {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.banner-inster {
+  font-family: "Baloo Da 2", cursive;
+  color: white;
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 600;
+}
+.circleAvater {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+  padding: 10px;
+}
+.card-text {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 20px !important;
+}
+
+.card-title {
+  font-family: "Baloo Da 2", cursive;
+}
+
+.instrCard {
+  min-height: 470px;
+}
+
+.form-hr {
+  padding-left: 0.2rem;
+}
+.input-modal-hr {
+  width: 100%;
+  padding: 10px;
+  color: #26235d;
+  border-radius: 10px;
+  border: 1px solid gray;
+  display: block;
+  margin-bottom: 20px;
+}
+.submit-input-tag {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.submit-input-tag:hover {
+  color: white;
+  background-color: #1e3cba;
+}
+/* Mobile design is here */
+@media (max-width: 767px) {
+  .instsections {
+    /* background-image: url("./Unive-for-Individuals-Banner.png"); */
+    background-color: #265ab8;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+    position: relative;
+  }
+  .instructorHead {
+    font-size: 40px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .instructorPara {
+    font-family: "Baloo Da 2", cursive;
+    color: #265ab8;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .smallText {
+    font-family: "Baloo Da 2", cursive;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .banner-inster {
+    font-size: 30px;
+    text-align: center;
+  }
+  /* .instrCard {
+    min-height: 0px; responsive later it will more customize
+  } */
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+}

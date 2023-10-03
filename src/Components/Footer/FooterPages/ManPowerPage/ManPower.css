@@ -1,0 +1,25 @@
+.form-hr {
+    padding-left: 0.2rem;
+}
+
+.input-modal-hr {
+    width: 100%;
+    padding: 10px;
+    color: #26235d;
+    border-radius: 10px;
+    border: 1px solid gray;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.submit-input-tag {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.submit-input-tag:hover {
+    color: white;
+    background-color: #1e3cba;
+}

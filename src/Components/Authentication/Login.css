@@ -1,0 +1,42 @@
+.loginStyle {
+  margin: 0 auto;
+  width: 80%;
+  font-family: "Baloo Da 2", cursive;
+}
+.loginStyle2 {
+  margin: 0 auto;
+  width: 50%;
+  font-family: "Baloo Da 2", cursive;
+}
+.loginpara {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+}
+.loginvideo {
+  margin: 0 auto;
+  padding-left: 3rem;
+}
+
+.hrline {
+  display: flex;
+  flex-direction: row;
+}
+.hrline:before,
+.hrline:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.hrline:before {
+  margin-right: 10px;
+}
+.hrline:after {
+  margin-left: 10px;
+}
+.errorr {
+  color: red;
+  font-family: "Baloo Da 2", cursive;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}

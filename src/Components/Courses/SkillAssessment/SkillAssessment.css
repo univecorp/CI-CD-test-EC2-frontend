@@ -1,0 +1,107 @@
+.question-div {
+  width: 100%;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  padding: 20px;
+  box-shadow: 0px 11px 28px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.option-div {
+  margin-right: 1 rem;
+}
+.option {
+  padding: 10px;
+  margin-right: 4rem;
+  cursor: pointer;
+  font-family: "Baloo Da 2", cursive;
+  font-size: 18px;
+}
+.main-header-div {
+  display: flex;
+  justify-content: space-between;
+}
+.success-div {
+  width: 50vw;
+  height: 50vh;
+  box-shadow: 0px 11px 28px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+.score-value {
+  font-family: "Baloo Da 2", cursive;
+  text-align: center;
+  font-size: 30px;
+  margin-left: -2rem;
+  color: green;
+  font-weight: 500;
+}
+.skill-header {
+  text-align: center;
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  margin-top: 2rem;
+  opacity: 1;
+  animation: fadeIn 8s ease-in-out infinite;
+}
+
+.option-disabled {
+  color: rgb(134, 128, 128);
+  font-weight: 600;
+  pointer-events: none;
+}
+.lotti-why-skill {
+  margin-left: 14rem;
+  width: 40%;
+  margin-top: 1rem;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.timer {
+  margin-top: 2rem;
+  font-family: "Baloo Da 2", cursive;
+  color: red;
+}
+.quiz-question {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 25px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: green;
+}
+.submit-btn {
+  background-color: #1e3cba;
+  border: none;
+  margin-top: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: -0.8rem;
+}
+.next-btn-skill {
+  background-color: green;
+  border: none;
+  color: white;
+  margin-top: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: -0.8rem;
+}

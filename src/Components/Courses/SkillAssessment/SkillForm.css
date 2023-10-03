@@ -1,0 +1,160 @@
+.header-skill {
+  font-family: "Baloo Da 2", normal;
+  font-size: 50px;
+  color: #1e3cba;
+  text-align: center;
+  margin-top: 2rem;
+  text-decoration: underline;
+  margin-left: -15rem;
+}
+
+.main-div-skill {
+  margin-top: 2rem;
+  margin-left: 35rem;
+  padding: 20px;
+}
+.text-input-skill {
+  width: 30%;
+  /* margin-top: 0.5rem;
+  margin-bottom: 0.5rem; */
+  padding: 10px;
+  border-radius: 8px;
+  display: block;
+}
+.label-skill {
+  font-family: "Baloo Da 2", normal;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  display: block;
+}
+.remove-option-btn-skill {
+  width: 15%;
+  margin-bottom: 2rem;
+  padding: 8px;
+  border-radius: 5px;
+}
+.add-option-btn-skill {
+  width: 15%;
+  margin-bottom: 2rem;
+  padding: 8px;
+  border-radius: 5px;
+}
+.remove-question-btn-skill {
+  width: 15%;
+  margin-bottom: 2rem;
+  padding: 8px;
+  border-radius: 5px;
+}
+.add-question-btn-skill {
+  width: 15%;
+  margin-bottom: 2rem;
+  padding: 8px;
+  border-radius: 5px;
+}
+.skill-submit {
+  width: 15%;
+  margin-bottom: 2rem;
+  padding: 8px;
+  border-radius: 5px;
+  display: block;
+}
+@media (max-width: 992px) {
+  .header-skill {
+    font-size: 20px;
+    margin-left: -8rem;
+  }
+
+  .main-div-skill {
+    margin-top: 2rem;
+    margin-left: -1rem;
+    padding: 20px;
+  }
+  .text-input-skill {
+    width: 68%;
+    margin-top: 1rem;
+  }
+
+  .remove-option-btn-skill {
+    width: 45%;
+  }
+  .add-option-btn-skill {
+    width: 45%;
+  }
+  .remove-question-btn-skill {
+    width: 45%;
+    margin-bottom: 2rem;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .add-question-btn-skill {
+    width: 45%;
+  }
+  .skill-submit {
+    width: 45%;
+  }
+}
+#category {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  box-shadow: none;
+  width: 30%;
+  flex: 1;
+  padding: 0 1em;
+  color: #1e3cba;
+  background-color: #ebedef;
+  background-image: none;
+  cursor: pointer;
+}
+#label {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  box-shadow: none;
+  width: 30%;
+  flex: 1;
+  padding: 0 1em;
+  color: #1e3cba;
+  background-color: #ebedef;
+  background-image: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .header-skill {
+    font-size: 30px;
+    margin-left: -17rem;
+  }
+
+  .main-div-skill {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    padding: 20px;
+  }
+  .text-input-skill {
+    width: 70%;
+    margin-top: 1rem;
+  }
+
+  .remove-option-btn-skill {
+    width: 45%;
+  }
+  .add-option-btn-skill {
+    width: 45%;
+  }
+  .remove-question-btn-skill {
+    width: 45%;
+    margin-bottom: 2rem;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .add-question-btn-skill {
+    width: 45%;
+  }
+  .skill-submit {
+    width: 45%;
+  }
+}

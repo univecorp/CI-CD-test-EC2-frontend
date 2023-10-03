@@ -1,0 +1,41 @@
+.privacy-policy-header {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 64px;
+  font-weight: 800 !important;
+  color: #1e3cba;
+  margin-top: 5rem;
+}
+.privacy-para {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 700;
+  font-size: 20px;
+  color: #26235d;
+}
+.para-one {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 20px;
+}
+.strong-para {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 20px;
+}
+.info-para {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: #26235d;
+}
+.unive-sup {
+  color: #1e3cba;
+  font-weight: 700;
+  margin-left: 0.8rem;
+}
+
+@media only screen and (max-width: 765px) {
+  .privacy-policy-header {
+    font-size: 35px;
+    margin-top: 3rem;
+  }
+}

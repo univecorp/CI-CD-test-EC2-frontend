@@ -1,0 +1,84 @@
+.main-works {
+  overflow-x: hidden;
+}
+.main-header-why {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 64px;
+  font-weight: 800 !important;
+  color: #1e3cba;
+}
+.free {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 30px;
+  line-height: 45px;
+  color: #1e3cba;
+  font-weight: 500 !important;
+}
+.main-cont-div {
+  margin-top: -3.8rem;
+  padding-bottom: 10rem;
+}
+.list-why {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  list-style-type: disc;
+  margin-bottom: 3rem;
+  margin-top: 4.8rem;
+  padding-right: 2rem;
+}
+
+.why-unive-head {
+  margin-top: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  font-weight: 800;
+  font-family: "Baloo Da 2", cursive;
+  font-size: 64px;
+  color: #1e3cba;
+}
+.lotti-why {
+  margin-top: -2.3rem;
+}
+@media only screen and (max-width: 700px) {
+  .why-unive-head {
+    font-size: 30px;
+    line-height: 45px;
+    padding-top: 3rem;
+  }
+
+  .list-why {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .lotti-why {
+    width: 350px !important;
+    margin: 0 auto;
+  }
+  .main-header-why {
+    font-size: 30px;
+    margin-top: -5rem;
+  }
+  .free {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .list-why {
+    font-size: 25px;
+    line-height: 37.5px;
+  }
+
+  .lotti-why {
+    width: 450px !important;
+    margin-left: -2.1rem;
+    margin-top: 6rem;
+  }
+  .free {
+    font-size: 25px;
+    line-height: 37.5px;
+  }
+}

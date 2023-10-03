@@ -1,0 +1,33 @@
+.mod-title {
+  font-family: "Baloo Da 2", cursive !important;
+}
+.td-mod-sc {
+  cursor: pointer;
+}
+.mod-label {
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.p-label {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.mod-label:hover {
+  color: #453ebee7;
+}
+
+.p-label:hover {
+  color: #26235d;
+  text-decoration: underline;
+}
+.mod-btn:hover {
+  background-color: rgb(255, 146, 146);
+  border: none;
+  color: white;
+}

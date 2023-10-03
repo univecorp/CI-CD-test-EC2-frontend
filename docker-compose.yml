@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  unive:
+    build: ./vite-project
+    container_name: unive_front
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./vite-project/node_modules
+    stdin_open: true
+    tty: true

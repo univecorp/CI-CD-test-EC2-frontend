@@ -1,0 +1,211 @@
+/* .sign-btn {
+  background-color: #0047ab;
+} */
+.circle-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #1c3999de;
+  object-fit: cover;
+}
+.dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+}
+.dropdown-menu-center {
+  transform: translateX(-50%);
+  left: 0% !important;
+  right: auto !important;
+}
+.DropText {
+  font-weight: 500;
+  font-family: "Baloo Da 2", cursive;
+  margin-bottom: 5px;
+}
+.DropText:hover {
+  background-color: #1c3a99;
+  color: white;
+}
+/* offcanvas */
+.offcanvas {
+  width: 15% !important;
+}
+.littleFont {
+  font-weight: 500;
+  font-family: "Baloo Da 2", cursive;
+}
+
+.logo-image {
+  margin-top: -0.8rem;
+  margin-left: 2rem;
+}
+.mousepoint {
+  cursor: pointer;
+}
+.head {
+  background: rgba(228, 236, 240, 0.52);
+  /* background: linear-gradient(180deg, rgba(38,36,93,1) 35%, rgba(40,56,143,1) 100%); */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.4px);
+  -webkit-backdrop-filter: blur(6.4px);
+  border: 1px solid rgba(228, 236, 240, 0.07);
+}
+.header-text {
+  color: #1c3999de !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+
+  font-family: "Baloo Da 2", cursive;
+}
+
+.login-text {
+  color: #1c3999de !important;
+  font-weight: 700 !important;
+  margin-top: 0rem;
+  font-size: large !important;
+}
+.arrow-image {
+  color: #1c3a99;
+}
+.sign-btn {
+  --color: #1c3a99 !important;
+  font-family: inherit;
+  display: inline-block;
+  width: 9rem;
+  height: 2.4em;
+  text-align: center;
+  /* margin-top: 1rem; */
+
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.sign-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.sign-btn:hover {
+  color: #fff;
+}
+
+.sign-btn:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.sign-btn:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.sign-btn:active:before {
+  background: linear-gradient(
+    90deg,
+    #26235d -57.36%,
+    #1c3a99 50.2%,
+    #26235d 118.37%
+  );
+  transition: background 0s;
+}
+
+/* changes the hamburger icon */
+.navbar-toggler-icon {
+  background-image: none !important;
+  background-color: #1c3999de;
+  height: 3px;
+  width: 25px;
+  margin: 10px 0;
+  position: relative;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
+}
+
+.navbar-toggler-icon::before {
+  display: block;
+  background-color: #1c3999de;
+  height: 3px;
+  content: "";
+  position: relative;
+  top: -7px;
+  transition: all 0.15s ease-out; /*taken down to hide quicker*/
+  transform-origin: center;
+}
+
+.navbar-toggler-icon::after {
+  display: block;
+  background-color: #1c3999de;
+  height: 3px;
+  content: "";
+  position: relative;
+  top: 4px;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
+}
+
+.navbar-dark .navbar-toggler-icon,
+.navbar-dark .navbar-toggler-icon::before,
+.navbar-dark .navbar-toggler-icon::after {
+  background-color: #1c3999de;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {
+  opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
+  transform: rotate(-90deg) translateX(7px);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 765px) {
+  /* offcanvas */
+  .offcanvas {
+    width: 47% !important;
+  }
+}
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* offcanvas */
+  .offcanvas {
+    width: 30% !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #responsive-navbar-nav {
+    margin-top: 1.3rem;
+    background: white !important;
+    padding: 1rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}

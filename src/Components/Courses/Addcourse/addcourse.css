@@ -1,0 +1,75 @@
+.add-course-header {
+  font-family: "Baloo Da 2", normal;
+  font-size: 50px;
+  color: #1e3cba;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: -24rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+#coursetag {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+  color: #1e3cba;
+  background-color: #ebedef;
+  background-image: none;
+  cursor: pointer;
+}
+
+.lbl {
+  font-family: "Baloo Da 2", normal;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.main-cont-form {
+  margin-bottom: 4rem;
+  padding-left: 35rem;
+  padding-right: 4rem;
+}
+
+.main-input-section {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Media queries */
+@media (max-width: 992px) {
+  .add-course-header {
+    font-size: 34px;
+  }
+
+  .main-input-section,
+  .form-control {
+    width: 100% !important;
+  }
+  .main-cont-form {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .main-input-section,
+  .form-control {
+    width: 100% !important;
+  }
+
+  .main-cont-form {
+    padding-left: 14rem;
+    padding-right: 4rem;
+  }
+}

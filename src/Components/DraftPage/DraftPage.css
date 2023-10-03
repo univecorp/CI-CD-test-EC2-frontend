@@ -1,0 +1,32 @@
+.header-text-draft {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 50px;
+  font-weight: 700;
+  opacity: 0;
+  transform: scale(0);
+  margin-top: 4rem;
+  color: #1e3cba;
+  cursor: pointer;
+}
+@keyframes fadeInAndScale {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.header-text-draft {
+  animation: fadeInAndScale 2s ease-in-out forwards;
+}
+@media only screen and (max-width: 768px) {
+  .header-text-draft {
+    font-size: 20px;
+  }
+}

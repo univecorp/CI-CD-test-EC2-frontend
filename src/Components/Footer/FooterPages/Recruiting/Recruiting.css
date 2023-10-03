@@ -1,0 +1,180 @@
+.rec-header {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+}
+.form-hr{
+  padding-left: 0.2rem;
+}
+.input-modal-hr{
+  width: 100%;
+  padding:10px;
+  color:#26235d;
+  border-radius: 10px;
+  border: 1px solid gray;
+  display: block;
+  margin-bottom: 20px;
+}
+.submit-input-tag{
+  width: 100%;
+  padding:10px;
+  border-radius: 10px;
+  border: none;
+}
+.submit-input-tag:hover{
+ color:white;
+ background-color: #1e3cba;
+}
+
+.rec-para {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Baloo Da 2", cursive;
+  color: #26235d;
+  line-height: 50px;
+}
+.bluebtns {
+  font-family: "Baloo Da 2", cursive;
+}
+
+.sub-header-rec {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 13rem;
+  margin-bottom: 8rem;
+}
+.can-sub-rec {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  font-weight: 800;
+  font-size: 50px;
+  margin-top: 13rem;
+}
+.can-sub-rec-one {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 20px;
+  color: #26235d;
+}
+
+.img-text-one {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: #1e3cba;
+}
+.img-text-sub-one {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 20px;
+  color: #26235d;
+  line-height: 30px;
+}
+.row-img-one {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.img-text-sub-two {
+  margin-top: 3rem;
+  color: #26235d;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+.faq-header {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+}
+.ready-start {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+}
+.ready-start-sub {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 20px;
+  font-weight: 500;
+  color: #26235d;
+}
+.rep-btns {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  background: linear-gradient(
+    90deg,
+    #26235d -57.36%,
+    #1e3cba 50.2%,
+    #26235d 118.37%
+  ) !important;
+  color: white !important;
+  border: none;
+}
+.form-sec {
+  margin-top: -21rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .rec-header {
+    font-size: 20px;
+    line-height: 30px;
+    
+    margin-right: 1.5rem;
+  }
+  .rec-para {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Baloo Da 2", cursive;
+    color: #26235d;
+    line-height: 22.5px;
+  }
+  .sub-header-rec {
+    font-family: "Baloo Da 2", cursive;
+    color: #1e3cba;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+  .can-sub-rec {
+    font-family: "Baloo Da 2", cursive;
+    color: #1e3cba;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37.5px;
+    margin-top: 6rem;
+  }
+  .img-text-one {
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37.5px;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    color: #1e3cba;
+  }
+
+  .img-text-sub-one {
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 500;
+    font-size: 15px;
+    color: #26235d;
+    line-height: 22.5px;
+    margin-left: 1.2rem;
+  }
+  .second-img-column {
+    margin-bottom: 20rem;
+    margin-top: 2rem;
+  }
+  .img-text-sub-two {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}

@@ -1,0 +1,18 @@
+.certificate-header {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.ct-btn {
+  background-color: #1e3cba;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 40%;
+}
+.ct-btn:hover {
+  background-color: green;
+}

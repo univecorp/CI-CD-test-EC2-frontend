@@ -1,0 +1,386 @@
+.main-cont-course-desc {
+  margin-bottom: 4rem;
+}
+
+.what-see-header {
+  color: #1e3cba;
+  font-weight: 700;
+  margin-left: 0.2rem;
+}
+
+.cam-icon {
+  color: #1b9c85;
+}
+
+.quiz-button {
+  color: white;
+  font-family: "Baloo Da 2", cursive;
+  margin-top: -1rem;
+  border: none;
+}
+
+.modal-btn {
+  width: 100%;
+  font-family: "Baloo Da 2", cursive;
+  border: none;
+  border-radius: 8px;
+  background-color: #1e3cba;
+  color: white;
+  margin-bottom: 2rem;
+  white-space: nowrap;
+}
+.what-see {
+  font-family: "Baloo Da 2", cursive;
+
+  border-radius: 10px;
+  margin-top: 4rem;
+  padding: 12px;
+  font-weight: 800;
+
+  box-shadow: 3px 7px 17px 0px rgba(102, 95, 95, 0.74);
+  -webkit-box-shadow: 3px 7px 17px 0px rgba(102, 95, 95, 0.74);
+  -moz-box-shadow: 3px 7px 17px 0px rgba(102, 95, 95, 0.74);
+}
+
+.acc-mod-head-one {
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+.acc-sub-head-one {
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  cursor: pointer;
+  font-size: 18px;
+}
+.course-length-module {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #26235d;
+}
+.more-section-btn {
+  margin-top: 2rem;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1e3cba;
+  color: white;
+  font-family: "Baloo Da 2", cursive;
+}
+
+.prev {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+}
+.content-name {
+  font-family: "Baloo Da 2", cursive;
+  color: #26235d;
+  font-weight: 500;
+  margin-left: 0.7rem;
+}
+.icon-vid {
+  color: #26235d;
+}
+.prev {
+  color: #26235d;
+  font-weight: 500;
+}
+.time {
+  font-family: "Baloo Da 2", cursive;
+  margin-left: 0.7rem;
+  color: #26235d;
+  font-weight: 500;
+}
+.req {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: 0.8rem;
+}
+.req-ul {
+  font-family: "Baloo Da 2", cursive;
+  color: #26235d;
+
+  font-weight: 500;
+}
+.description {
+  font-family: "Baloo Da 2", cursive;
+
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  color: #1e3cba;
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: 0.8rem;
+}
+.description-para {
+  font-family: "Baloo Da 2", cursive;
+  margin-left: 0.8rem;
+  color: #26235d;
+  font-weight: 500;
+}
+.expand-module {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #26235d;
+  cursor: pointer;
+}
+
+.learn-list-course {
+  margin-left: -0.4rem;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  color: #26235d;
+}
+.accor-sec {
+  margin-top: 3rem;
+}
+.course-cont-head {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 25px;
+}
+/* .enroll-btn {
+  margin-bottom: 10px;
+} */
+.left-course-section {
+  margin-top: -2rem;
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+  width: 300px;
+  height: auto;
+
+  box-shadow: 2px 10px 12px -4px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 2px 10px 12px -4px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 2px 10px 12px -4px rgba(0, 0, 0, 0.68);
+  z-index: 1;
+}
+.add-to-cart {
+  border: none;
+  margin-bottom: 2rem;
+  font-family: "Baloo Da 2", cursive;
+  margin-top: 2rem !important;
+  margin-left: 2rem !important;
+}
+.buy-btn {
+  font-family: "Baloo Da 2", cursive;
+  margin-top: 2rem !important;
+  margin-left: 2rem !important;
+}
+.course-img-section {
+  width: 300px;
+  padding: 1px;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.course-img-section:hover {
+  transform: scale(1.04);
+}
+
+.money-back {
+  font-size: 14px;
+  font-family: "Baloo Da 2", cursive;
+  color: red;
+  margin-left: 3rem !important;
+  margin-top: 0.8rem !important;
+}
+.price {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.course-desc-section {
+  background: linear-gradient(
+    90deg,
+    #26235d -57.36%,
+    #1e3cba 50.2%,
+    #26235d 118.37%
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 45vh;
+  position: relative;
+  z-index: -1;
+}
+
+.content-course-desc {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.banner-course-desc {
+  font-family: "Baloo Da 2", cursive;
+  /* color: #1e3cba; */
+  color: white;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  margin-left: 4rem;
+
+  margin-bottom: 2rem;
+}
+.banner-course-desc {
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.course-order-button {
+  border: 0;
+  font-family: "Baloo Da 2", cursive;
+  padding: 15px;
+  width: 32%;
+  border-radius: 10px;
+  background-color: #3656e4;
+  color: white;
+  font-size: 1.5vw;
+}
+.course-desc-para {
+  font-family: "Baloo Da 2", cursive;
+  /* color: #26235d; */
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  padding-right: 6rem;
+  padding-left: 4rem;
+}
+
+.course-desc-para {
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.star {
+  color: goldenrod;
+  margin-left: 4rem;
+  margin-top: -1rem;
+  margin-bottom: 4rem;
+}
+.course-list-title {
+  font-family: "Baloo Da 2", cursive;
+  color: #1e3cba;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+.course-list {
+  font-family: "Baloo Da 2", cursive;
+  color: #26235d;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+.video-title {
+  font-family: "Baloo Da 2", cursive;
+  color: #26235d;
+  cursor: pointer;
+}
+.quiz-question {
+  font-family: "Baloo Da 2", cursive;
+  color: #26235d;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 700px) {
+  .left-course-section {
+    margin-top: 2rem;
+    margin-right: 4rem;
+  }
+
+  .course-desc-section {
+    height: 45vh;
+  }
+  .banner-course-desc {
+    font-size: 15px;
+    line-height: 22.5px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .content-course-desc {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-5%);
+  }
+  .course-desc-para {
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .star {
+    margin-top: -2rem;
+    margin-left: 2rem;
+  }
+
+  .modal-btn {
+    width: 100%;
+    white-space: normal;
+    font-size: 10px;
+  }
+
+  .acc-mod-head-one {
+    font-size: 15px;
+  }
+  .acc-sub-head-one {
+    font-size: 12px;
+  }
+
+  .cam-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .acc-mod-head-one {
+    font-size: 17px;
+  }
+  .acc-sub-head-one {
+    font-size: 12px;
+  }
+  .modal-btn {
+    width: 100%;
+    white-space: normal;
+    font-size: 11px;
+  }
+
+  .cam-icon {
+    display: none;
+  }
+}

@@ -1,0 +1,285 @@
+.containerSide {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.enterPricingHead {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  color: #1e3cba;
+  margin-top: 3rem;
+}
+.enterPricingPara {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #26235d;
+  text-align: center;
+  margin-top: 3rem;
+}
+.enterpricing1 {
+  background: #aad4f1;
+  max-width: 500px;
+  height: 750px;
+  padding: 10px;
+  position: relative;
+}
+.enterpricing2 {
+  background: linear-gradient(
+    25.9deg,
+    #1f36a4 20.44%,
+    #3498db 117.49%,
+    #2d75c7 117.49%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 500px;
+  height: 750px;
+  padding: 10px;
+  position: relative;
+}
+
+.enterpricingCat {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  text-align: center;
+  color: #1e3cba;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.enterpricingCatpara {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #26235d;
+}
+.entereq {
+  padding-bottom: 8rem;
+}
+.enterpricingCatList {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #26235d;
+  margin-bottom: 15px;
+}
+
+.enterpricingCat2 {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.enterpricingCatpara2 {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+.enterpricingCatList2 {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.EnterButton {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  background: #1e3cba;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #ffffff;
+}
+
+.btnenter {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.EnterButton2 {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: 0;
+  color: #1e3cba;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #1e3cba;
+}
+.accordion-button::after {
+  order: -1;
+  margin-left: 0;
+  margin-right: 0.5em;
+  background-image: url("./Group\ 60.png");
+  background-color: white;
+  border-radius: 50%;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("./Group\ 62.png");
+  transform: rotate(-180deg);
+  background-color: #1e3cba !important;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .containerSide {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .enterPricingHead {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    margin-top: 2rem;
+  }
+  .enterPricingPara {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 2rem;
+  }
+  .enterpricing1 {
+    max-width: 500px;
+    height: 750px;
+    padding: 10px;
+    position: relative;
+  }
+  .enterpricing2 {
+    max-width: 500px;
+    height: 750px;
+    padding: 10px;
+    position: relative;
+  }
+  .enterpricingCat {
+    font-size: 36px;
+    line-height: 30px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .enterpricingCatpara {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #26235d;
+  }
+  .entereq {
+    padding-bottom: 2rem;
+  }
+  .enterpricingCatList {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .containerSide {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .enterPricingPara {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 2rem;
+  }
+  .enterpricing1 {
+    max-width: 500px;
+    height: 750px;
+    padding: 10px;
+    position: relative;
+  }
+  .enterpricing2 {
+    max-width: 500px;
+    height: 750px;
+    padding: 10px;
+    position: relative;
+  }
+  .enterpricingCat {
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .enterpricingCatpara {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #26235d;
+  }
+  .entereq {
+    padding-bottom: 12rem;
+  }
+  .enterpricingCatList {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .enterpricingCat2 {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .enterpricingCatpara2 {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 4rem;
+  }
+  .enterpricingCatList2 {
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+}

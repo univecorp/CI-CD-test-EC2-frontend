@@ -1,0 +1,232 @@
+.JobsHead {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-family: "Baloo Da 2", cursive;
+}
+.jobsBackground {
+  background-color: #f8f8ff;
+}
+.JobsViewPara {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 16px;
+}
+.JobsPostName {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: #1e3cba;
+  font-family: "Baloo Da 2", cursive;
+}
+.JobsCompnayName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-family: "Baloo Da 2", cursive;
+  margin-bottom: 20px;
+}
+.JobPostBullet {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 16px;
+  list-style: none;
+}
+
+.JobPostBullet li {
+  line-height: 30px;
+}
+.JobPostBullet li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #1e3cba; /* Change the color */
+  font-weight: bolder; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.JobPostButton {
+  border: none;
+  background-color: #1e3cba;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.JobsSumHead {
+  background-color: #1e3cba;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: bold;
+}
+.JobsSumBut {
+  background-color: #1e3cba;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: bold;
+  cursor: pointer;
+}
+.JobsSumBut:hover {
+  background-color: #0c2897;
+}
+
+.JobsSumBut2 {
+  background-color: #0081c9;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: bold;
+  cursor: pointer;
+}
+.JobsSumBut3 {
+  background-color: #fbd85d;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: bold;
+  cursor: pointer;
+}
+.JobsSumPara {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #5c5c5c;
+  font-family: "Baloo Da 2", cursive;
+}
+.JobsSumText {
+  font-size: 15px;
+  color: #1a1a1a;
+  font-weight: normal;
+  font-family: "Baloo Da 2", cursive;
+}
+.JobsSummery {
+  background-color: #faf5f5;
+  border-radius: 10px;
+}
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  font-family: "Baloo Da 2", cursive;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 35px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Baloo Da 2", cursive;
+  color: #5543ca;
+  cursor: text;
+}
+.submit-btn {
+  display: inline-block;
+  background-color: #000;
+  background-image: linear-gradient(125deg, #320fcc, #1e3cba);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  font-family: "Baloo Da 2", cursive;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+.dragpara {
+  border: 1px dotted #1e3cba;
+  text-align: center;
+  padding: 20px;
+}
+
+.react-tel-input .form-control {
+  display: block !important;
+  width: 100% !important;
+  height: 36px !important;
+  border-width: 0 0 2px 0 !important;
+  border-color: #5543ca !important;
+  font-size: 18px !important;
+  line-height: 26px !important;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 400 !important;
+}
+.react-tel-input .form-control:focus {
+  outline: none !important;
+}
+
+.flag-dropdown {
+  border-width: 0 0 2px 0 !important;
+  border-color: #5543ca !important;
+}
+
+.baloo {
+  font-family: "Baloo Da 2", cursive;
+}
+.sharebox {
+  background-color: #faf5f5;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 4rem;
+}
+.ShareJob {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.QNAInput {
+  width: 80%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+.QNAbutton {
+  border: none;
+  background-color: #1e3cba;
+  padding: 6px;
+  border-radius: 10px;
+}
+.QNAicon {
+  color: white;
+}
+.JobsCopy {
+  background-color: #39a036;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: bold;
+  cursor: pointer;
+}

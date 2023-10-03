@@ -1,0 +1,239 @@
+.small-text-cedit {
+  font-size: 14px;
+}
+.edit-course-header {
+  font-family: "Baloo Da 2", normal;
+  font-size: 50px;
+  color: #1e3cba;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 8rem;
+  text-align: center;
+  font-weight: 800;
+}
+.main-cont-form-edit {
+  margin-bottom: 4rem;
+  padding-left: 12rem;
+  padding-right: 2rem;
+  overflow-x: hidden;
+}
+
+.main-input-section-name {
+  width: 300%;
+  padding: 20px;
+  height: 100%;
+}
+.main-input-section-course-desc {
+  width: 300%;
+  padding: 20px;
+  height: 100%;
+}
+.lbl-edit-image {
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-family: "Baloo Da 2", normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.custom-select {
+  width: 100%;
+  padding: 20px;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+
+  color: #333;
+}
+
+/* Optional: Add hover and focus styles for better interactivity */
+.custom-select:hover,
+.custom-select:focus {
+  background-color: #e6e6e6;
+  outline: none;
+}
+.main-input-section-summary {
+  width: 300%;
+  padding: 20px;
+  height: 100%;
+}
+.main-input-section-what {
+  width: 300%;
+  padding: 20px;
+  height: 100%;
+}
+.main-input-section-premier {
+  width: 300%;
+  padding: 20px;
+  height: 100%;
+}
+.main-input-section-includes {
+  width: 300%;
+  padding: 20px;
+  height: 100%;
+}
+.main-input-section-need {
+  width: 300%;
+  padding: 20px;
+  height: 100%;
+}
+.mod-title-edit {
+  width: 100%;
+  padding: 15px;
+  margin-top: 1rem;
+}
+.mod-description-edit {
+  width: 100%;
+  padding: 15px;
+  height: 2%;
+}
+.sub-mod-title-edit {
+  width: 100%;
+  padding: 15px;
+}
+.lbl-mod-title {
+  margin-top: 4rem;
+}
+
+.sub-mod-description-edit {
+  width: 100%;
+  padding: 15px;
+  height: 10%;
+}
+
+.vid-title-edit {
+  width: 100%;
+  padding: 15px;
+}
+
+.vid-description-edit {
+  width: 100%;
+  padding: 15px;
+  height: 20%;
+}
+
+.vid-link-edit {
+  width: 100%;
+  padding: 15px;
+}
+
+.quiz-question-edit {
+  width: 100%;
+  padding: 15px;
+  height: 10%;
+}
+
+.quiz-options-edit {
+  width: 100%;
+  padding: 15px;
+  height: 10%;
+}
+
+.quiz-answer-edit {
+  width: 100%;
+  padding: 15px;
+  height: 10%;
+}
+.add-mod-btn {
+  margin-top: 8rem;
+  margin-right: 1rem;
+}
+/* .save-btn {
+  margin-top: 8rem;
+} */
+.delete-btn {
+  margin-top: 3rem;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+  margin-right: 2rem;
+}
+.add-video-btn {
+  margin-top: 3rem;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+}
+.delete-quiz-btn {
+  margin-top: 3rem;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+}
+.add-quiz-btn {
+  margin-top: 3rem;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+  margin-right: 1rem;
+}
+.delete-sub-mod-btn {
+  margin-top: 3rem;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+}
+
+.add-sub-mod-btn {
+  margin-top: 3rem;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+  margin-right: 1rem;
+}
+.delete-mod-btn {
+  margin-top: 3rem;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+}
+.add-mod-btn {
+  margin-top: 8rem;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+  margin-right: 1rem;
+}
+.save-btn {
+  margin-top: 8rem;
+  border-radius: 10px;
+  padding: 8px;
+  width: 50%;
+}
+@media (max-width: 992px) {
+  .edit-course-header {
+    font-size: 24px;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-control {
+    width: 100% !important;
+  }
+  .main-cont-form-edit {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .delete-btn {
+    width: 100%;
+  }
+  .add-video-btn {
+    width: 100%;
+  }
+  .delete-quiz-btn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .form-control {
+    width: 100% !important;
+  }
+
+  .main-cont-form-edit {
+    padding-left: 14rem;
+    padding-right: 4rem;
+  }
+}

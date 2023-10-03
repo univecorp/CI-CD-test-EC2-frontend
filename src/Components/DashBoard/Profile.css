@@ -1,0 +1,127 @@
+.ProfilePara {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+.gradient-text {
+  background: linear-gradient(to right, #b57300, #0000ff);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.DashProfilePic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  object-fit: cover;
+  margin: 10px 20px;
+}
+/* Custom CSS to hide the default down arrow on the Dropdown.Toggle */
+.custom-toggle-class::after {
+  display: none;
+  padding: 0px;
+  margin: 0px;
+}
+/* Add this CSS to your stylesheets */
+.dropdown-menu {
+  width: 400px; /* Set the width of the dropdown */
+  max-height: 400px; /* Set the max height of the dropdown */
+  overflow-y: auto; /* Add scrollbars if the content exceeds the max height */
+}
+/* Add this CSS to your stylesheets */
+.custom-toggle-class {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  padding: 0px;
+}
+
+.DashHeadIcons {
+  /* Add any additional styles for the notification icon */
+  font-size: 32px !important; /* Adjust the font size as needed */
+  color: #333; /* Change the color of the notification icon */
+}
+.DashHeadIcon2 {
+  font-size: 25px !important;
+  color: #1e3cba;
+}
+.notification-badge {
+  /* Add styles for the badge */
+  position: absolute;
+  top: 10px; /* Adjust the top position to align it properly with the icon */
+  right: 15px; /* Adjust the right position to align it properly with the icon */
+  background-color: red; /* Change the background color of the badge */
+  font-size: 12px; /* Adjust the font size of the badge text */
+  font-weight: bold; /* Optionally set the font weight of the badge text */
+  padding: 4px 6px; /* Optionally add padding to the badge */
+  border-radius: 50%; /* Optionally create a circular badge */
+  color: #fff; /* Change the text color of the badge */
+}
+
+.profileEdit {
+  text-align: center;
+  font-weight: 500;
+  background-color: #0000ff;
+  border-radius: 10px;
+  padding: 8px 10px;
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+  cursor: pointer5;
+}
+
+.dashHeadss {
+  border-bottom: 1px solid rgba(33, 40, 50, 0.3);
+}
+
+.inputsSearch {
+  width: 40%;
+  height: 40px;
+  border: 1px solid rgba(33, 40, 50, 0.3);
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 8px;
+}
+
+.inputsSearch:focus {
+  outline: none !important;
+  border-color: #265ab8;
+  box-shadow: 0 0 10px #2659b852;
+}
+.DashHeadIcon {
+  font-size: 25px;
+  margin-right: 3rem;
+}
+.dashHeadName {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #1e3cba;
+  margin-left: 1rem;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.backroundDash {
+  background-color: #ffffff;
+}
+.custom-dropdown .dropdown-toggle::after {
+  color: #1e3cba;
+}
+@media only screen and (max-width: 768px) {
+  .dashHeadName {
+    display: none;
+  }
+  .logos {
+    margin-left: 0px;
+    width: 80px;
+  }
+  .DashHeadIcon {
+    margin-right: 10px;
+  }
+}

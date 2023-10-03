@@ -1,0 +1,19 @@
+# Use the desired Node.js version
+FROM node:alpine
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy package.json  to the working directory
+COPY package.json /app
+
+# Install dependencies
+RUN yarn install
+
+# Copy the rest of your application code
+COPY . /app
+
+
+
+# Define the command to start your application
+CMD ["yarn", "dev"]

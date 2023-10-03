@@ -1,0 +1,390 @@
+.DashProfileInput {
+  width: 100%;
+}
+
+.Fullheight {
+  min-height: 100vh;
+}
+
+.DashtextPara {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  color: #212832;
+  margin-top: 40px;
+}
+.DashProfileInput label {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: rgba(33, 40, 50, 0.5);
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.DashProfileInput input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid rgba(33, 40, 50, 0.3);
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 8px;
+}
+
+.DashProfileInput input:focus {
+  outline: none !important;
+  border-color: #265ab8;
+  box-shadow: 0 0 10px #2659b852;
+}
+
+.DashProfileInput input::placeholder {
+  color: gray;
+  font-size: 14px;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: normal;
+}
+.DashProfileInput textarea {
+  width: 95%;
+  height: 80px;
+  border: 1px solid rgba(33, 40, 50, 0.3);
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 8px;
+}
+
+.DashProfileInput textarea:focus {
+  outline: none !important;
+  border-color: #265ab8;
+  box-shadow: 0 0 10px #2659b852;
+}
+.DashProfileInput select {
+  width: 90%;
+  height: 40px;
+  border: 1px solid rgba(33, 40, 50, 0.3);
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 8px;
+}
+.DashUserSave {
+  background: #1e3cba;
+  font-family: "Baloo Da 2", cursive;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  margin: 40px 0px;
+}
+.dashParaSmalls {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  /* text-decoration-line: underline; */
+  color: #212832;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.dashParaSmallText {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #1e3cba;
+  margin-top: 30px;
+}
+.rti--container {
+  width: 95%;
+}
+.rti--tag {
+  background-color: #1e3cba !important;
+  color: white;
+}
+.profileSmallPara {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #1e1e1e;
+  padding: 10px 0px;
+  padding-left: 60px;
+  background-color: #eaeeff;
+}
+.courseImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.DashcourseName {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 19px;
+  color: #212832;
+  margin-bottom: 10px;
+}
+
+.DashcourseTime {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(33, 40, 50, 0.4);
+  margin: 0;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container img {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  /* You can adjust the width and height of the image as needed */
+  width: 30px;
+  height: 30px;
+}
+
+.input-container input {
+  /* You can adjust the padding and margin of the input field as needed */
+  padding-left: 60px;
+}
+
+.progress-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #011627;
+  margin: 0 0 20px;
+}
+.progress {
+  height: 10px;
+  background: #cbcbcb;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+}
+.progress .progress-bar {
+  box-shadow: none;
+  position: relative;
+  -webkit-animation: animate-positive 2s;
+  animation: animate-positive 2s;
+  z-index: 0;
+  overflow: visible;
+}
+.progress .progress-bar:after {
+  content: "";
+  display: block;
+  border: 15px solid transparent;
+  border-bottom: 21px solid transparent;
+  position: absolute;
+  top: -26px;
+  right: -8px;
+}
+.progress .progress-value {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  position: absolute;
+  top: -30px;
+  right: -10px;
+  z-index: 12;
+}
+.progress.pink .progress-bar:after {
+  border-bottom-color: #1e3cba;
+}
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
+@keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
+.Dashcoursebtn {
+  border: 0;
+  background-color: #1e3cba;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 8px;
+}
+.DashPricePara {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #1e3cba;
+  margin: 0;
+}
+.dashBlueName {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1e3cba;
+}
+.DashJobBorder {
+  background: #ffffff;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  width: 331px;
+  padding: 15px;
+  padding-top: 20px;
+}
+.DashBlueJob {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1e3cba;
+  text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+  padding-top: 15px;
+}
+.DashjobBadge {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  background: rgba(247, 105, 84, 0.15);
+  color: #f66954;
+  padding: 2px 15px;
+  border-radius: 7px;
+  margin-right: 7px;
+}
+.DashJobSmallText {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  color: #1e3cba;
+  text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+  margin-left: 5px;
+}
+.joblocationIcon {
+  color: #1e3cba;
+  margin-right: 5px;
+}
+.DashjobButton2 {
+  border: none;
+  background-color: #1e3cba;
+  color: #fff;
+  font-family: "Baloo Da 2", cursive;
+  font-size: 16px;
+  font-style: normal;
+  padding: 10px 70px;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+.jobTrashIcon {
+  color: #d1363a;
+  font-size: 38px;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  margin-top: 25px;
+  margin-right: 8px;
+}
+
+/* skill assesments starts */
+.skillAssesmentsCard {
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  width: 260px;
+  padding: 10px;
+  text-align: center;
+}
+.DashJobRatings {
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  color: #ffb800;
+  margin-top: 15px;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .DashProfileInput label {
+    font-size: 16px;
+  }
+  .dashParaSmalls {
+    margin-top: 15px;
+  }
+  .profileSmallPara {
+    font-size: 20px;
+    padding-left: 30px;
+  }
+  .courseImage {
+    width: 50px;
+    height: 50px;
+  }
+  .DashcourseName {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .DashcourseTime {
+    font-size: 14px;
+  }
+  .Dashcoursebtn {
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  #RFS-StepperContainer {
+    padding: 0;
+  }
+  .DashBlueJob {
+    font-size: 18px;
+  }
+  .dashBlueName {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .DashJobSmallText {
+    font-size: 16px;
+  }
+  .smstep {
+    width: 70% !important;
+  }
+  .DashJobBorder {
+    width: 300px;
+  }
+  .DashjobBadge {
+    padding: 5px 10px;
+  }
+  .DashjobButton2 {
+    padding: 10px 40px;
+    margin-top: 20px;
+  }
+}
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #RFS-StepperContainer {
+    padding: 0;
+  }
+}

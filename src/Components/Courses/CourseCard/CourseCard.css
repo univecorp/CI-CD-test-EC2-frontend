@@ -1,0 +1,187 @@
+.courseBookmarks {
+  position: relative;
+
+  right: -300px;
+  /* top: 15px; */
+  bottom: -150px;
+}
+.course-card {
+  cursor: pointer;
+  /* border: 0.8px solid gray; */
+  width: 410px;
+  border-radius: 10px;
+  height: 450px;
+  margin-bottom: 4rem;
+  background-color: #ececec;
+  box-shadow: -2px 15px 10px -21px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 15px 10px -21px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 15px 10px -21px rgba(0, 0, 0, 0.75);
+}
+
+.course-img {
+  width: 100%;
+  height: 50%;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  border: none;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  transition: opacity 0.3s ease;
+}
+
+.course-card:hover .course-img {
+  opacity: 0.8;
+}
+
+.course-content {
+  padding: 1.5rem;
+}
+
+.course-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.course-description {
+  font-size: 1.4rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.course-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4caf50;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.course-button:hover {
+  background-color: #45a049;
+}
+.rev-course {
+  color: #26235d;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Baloo Da 2", cursive;
+}
+.all-course {
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.course-name {
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 600;
+  font-size: 18px;
+
+  line-height: 27px;
+  padding-left: 1rem;
+}
+.course-star {
+  color: goldenrod;
+  padding-left: 1rem;
+  padding-top: -1rem;
+}
+.course-fee {
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.student-count {
+  color: #26235d;
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 500;
+  font-size: 14px;
+  padding-right: 1rem;
+  padding-top: 4rem;
+}
+@media only screen and (max-width: 700px) {
+  .course-card {
+    width: 75vw;
+
+    height: 50vh;
+  }
+  .courseBookmarks {
+    position: relative;
+
+    right: -170px;
+    top: 120px;
+  }
+  .course-img {
+    width: 100%;
+  }
+
+  .rev-course {
+    font-size: 8px;
+    font-weight: 600;
+  }
+  .all-course {
+    font-size: 12px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+  }
+  .course-name {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: -0.5rem !important;
+  }
+  .course-fee {
+    font-size: 12px;
+    margin-top: -0.5rem;
+  }
+  .course-star {
+    margin-top: -0.5rem;
+  }
+  .student-count {
+    font-size: 10px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .course-card {
+    width: 40vw;
+
+    height: 42vh;
+  }
+  .courseBookmarks {
+    position: relative;
+
+    right: -180px;
+    top: 150px;
+  }
+  .all-course {
+    font-size: 11.2px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+  }
+  .course-name {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: -0.5rem !important;
+  }
+  .student-count {
+    font-size: 11px;
+    padding-top: 2.1rem;
+    padding-left: 3rem;
+  }
+  .course-fee {
+    font-size: 11.9px;
+    margin-top: 0.5rem;
+  }
+}

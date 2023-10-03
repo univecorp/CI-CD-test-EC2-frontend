@@ -1,0 +1,492 @@
+.first-section {
+  background: linear-gradient(
+    90deg,
+    #26235d -57.36%,
+    #1e3cba 50.2%,
+    #26235d 118.37%
+  );
+
+  margin-top: -0.5rem;
+  width: 100%;
+  height: 600px;
+}
+.job-header-one {
+  margin-left: -15rem;
+  font-size: 65px;
+  font-weight: 400;
+  font-style: italic;
+  vertical-align: top;
+  font-family: "Baloo Da 2", cursive;
+  cursor: pointer;
+}
+.job-header-two {
+  margin-left: -15rem;
+  font-size: 85px;
+  font-style: italic;
+  font-family: "Baloo Da 2", cursive;
+  cursor: pointer;
+}
+
+.job-header-three {
+  margin-left: -15rem;
+  font-size: 55px;
+  font-family: "Baloo Da 2", cursive;
+  cursor: pointer;
+}
+
+.sup-text {
+  font-size: 6vh;
+
+  font-style: italic;
+  font-weight: 600;
+  vertical-align: top;
+  cursor: pointer;
+  margin-top: -6px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.button-div {
+  margin-left: -15rem;
+}
+.first-div {
+  margin-top: 5rem;
+}
+.span-div {
+  font-size: 2rem;
+}
+.second-div {
+  margin-top: 5rem;
+}
+
+.vid {
+  width: 640px;
+  height: 360px;
+}
+.second-section-div {
+  display: inline;
+
+  padding-left: 2rem;
+  width: 45%;
+}
+
+.third-section-div {
+  background: linear-gradient(
+    90deg,
+    #26235d -57.36%,
+    #1c3a99 50.2%,
+    #26235d 118.37%
+  );
+  border-radius: 30px;
+
+  margin: 0 auto;
+  padding-bottom: 6rem;
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+  width: 92%;
+}
+
+.third-section-header {
+  margin-left: 2rem;
+}
+.videodiv {
+  width: 45%;
+  height: auto;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 22px;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.vid {
+  width: 650px;
+  height: 520px;
+  border-radius: 40px 40px 30px 30px;
+}
+.high-span {
+  background: #1e3cba;
+}
+
+.header-second {
+  color: #1e3cba;
+  font-weight: bolder;
+  font-size: 48px;
+  line-height: 63.46px;
+  fill: solid #1e3cba;
+  cursor: pointer;
+  font-family: "Baloo Da 2", cursive;
+}
+.header-second-one {
+  color: #1e3cba;
+  font-weight: bolder;
+  margin-top: 1.3rem;
+  font-size: 48px;
+  line-height: 63.46px;
+  fill: solid #1e3cba;
+  cursor: pointer;
+  font-family: "Baloo Da 2", cursive;
+}
+.second-header-desc {
+  color: #26235d;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 1rem;
+  vertical-align: top;
+  line-height: 34px;
+  font-family: "Baloo Da 2", cursive;
+  font-style: light italic;
+  /* margin-left: 0.8rem; */
+  cursor: pointer;
+}
+.video-section {
+  margin-top: 10rem;
+}
+
+.top-video {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header-company {
+  color: #1e3cba;
+  font-size: 64px;
+  font-family: "Baloo Da 2", normal;
+  font-weight: 800;
+}
+
+.headerText {
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 900px) {
+  .bigWidth {
+    max-width: 45%;
+  }
+
+  .bigMargin {
+    margin-top: -20px;
+    margin-left: 5rem;
+  }
+
+  .onboarding75 {
+    width: 75%;
+  }
+
+  .onboarding50 {
+    width: 50%;
+  }
+
+  .onboardingPad {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .smallpadding {
+    padding-left: 2rem;
+  }
+
+  .contentpadding {
+    padding-left: 10rem;
+  }
+}
+
+/* Header design Start here */
+.headerStyle {
+  background-color: #1c3a99;
+  position: relative;
+}
+
+.bannerside {
+  padding: 2rem;
+}
+
+.headerText {
+  padding-top: 2.5rem;
+  position: relative;
+}
+.headertwo {
+  color: white;
+  text-size-adjust: auto;
+  font-size: 9vh;
+  font-weight: 600;
+  line-height: 10vh;
+  font-style: italic;
+  vertical-align: top;
+  font-family: "Baloo Da 2", cursive;
+  margin-bottom: 1rem;
+}
+.headerone {
+  font-size: 7vh;
+  line-height: 10vh;
+  color: white;
+  font-weight: 600;
+  font-style: italic;
+  vertical-align: top;
+  font-family: "Baloo Da 2", cursive;
+  margin-bottom: 1rem;
+}
+.headersup {
+  padding-right: 8px;
+  font-size: 2rem;
+}
+.headerButton {
+  margin: 0 auto;
+}
+.headerButton button {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
+  font-size: 2.5vh;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  font-family: "Baloo Da 2", cursive;
+  width: 12vw;
+  height: 3vw;
+  margin-right: 25px;
+}
+.firstButton {
+  background-color: white;
+  color: #1c3a99;
+  position: relative;
+  top: 0;
+  transition: top ease 0.1s;
+}
+.firstButton:hover {
+  top: -3px;
+}
+
+.SecondButton {
+  background-color: #0725aa;
+  color: white;
+  position: relative;
+  top: 0;
+  transition: top ease 0.1s;
+}
+.SecondButton:hover {
+  top: -3px;
+}
+.headerimg {
+  width: 100%;
+  margin-left: 7rem;
+}
+.smallText {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 20px;
+}
+
+/* Media Query for mobile mode */
+@media (max-width: 767px) {
+  .smallText {
+    font-size: 1rem;
+  }
+  .third-section-div {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .smallCenter {
+    text-align: center;
+  }
+
+  .smallWidth {
+    width: 100%;
+  }
+  .header-second {
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 40px;
+    font-size: bolder;
+  }
+  .header-second-one {
+    font-size: 24px;
+    line-height: 20px;
+    font-size: bolder;
+  }
+
+  .video-section {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .videodiv {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0%;
+  }
+
+  .vid {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  .second-section-div {
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .second-header-desc {
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .headerText {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    padding-left: 1.6rem;
+  }
+  .headertwo {
+    font-size: 4vh;
+    line-height: 3.5vh;
+  }
+  .headerone {
+    font-size: 3vh;
+    line-height: 3.5vh;
+  }
+  .sup-text {
+    font-size: 2.5vh;
+    margin-top: -2px;
+  }
+  .headerButton {
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+  }
+  .headerButton button {
+    width: 27vw;
+    height: 4.5vh;
+    font-size: 1.5vh;
+    margin: 0 11px;
+  }
+  .bannerside {
+    padding: 0rem;
+  }
+  .headerimg {
+    margin-left: -2rem;
+    width: 250px;
+    padding-bottom: 5rem;
+  }
+  .header-company {
+    font-size: 40px;
+    margin-top: 4rem !important;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .headertwo {
+    line-height: 3vh;
+  }
+  .headerone {
+    line-height: 3vh;
+  }
+  .headerStyle {
+    padding-top: 1.5rem;
+  }
+  .headerimg {
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+    bottom: 0%;
+    width: 100%;
+  }
+  .headerText {
+    margin-top: 10px;
+    padding-top: 2.5rem;
+    padding-left: 10px;
+    padding-bottom: 1rem;
+  }
+  .headerText h1 {
+    font-size: 2.3rem;
+    padding-bottom: 0.1rem;
+  }
+
+  .sup-text {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    vertical-align: middle;
+    margin-top: -8px;
+    margin-right: 10px;
+  }
+  .header-company {
+    font-size: 30px;
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+  }
+
+  .headerButton button {
+    width: 110px;
+    font-size: 12px;
+    padding: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 25px;
+  }
+  .bannerside {
+    padding: 0rem;
+  }
+  .headerone {
+    margin-bottom: 0.5rem;
+    font-size: 1.9rem;
+  }
+  .second-section-div {
+    display: inline;
+    margin-top: 2rem;
+  }
+  .second-header-desc {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 10px;
+  }
+  .header-second {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .header-second-one {
+    margin-top: 0.5rem;
+    font-size: 24px;
+    line-height: 20px;
+  }
+  .video-section {
+    margin-top: 4rem;
+  }
+  .videodiv {
+    width: 50%;
+  }
+
+  .vid {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  .third-section-div {
+    margin-top: 4rem;
+    width: 100%;
+    margin-left: 0;
+  }
+  .swiper-button-next {
+    width: 40px;
+    height: 40px;
+  }
+
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    /* margin-left: 4rem; */
+  }
+}
