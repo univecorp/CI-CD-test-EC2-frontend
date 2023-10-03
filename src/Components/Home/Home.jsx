@@ -82,9 +82,9 @@ export default function Home() {
           {/* <VideoRender/> */}
 
           <div className="second-section-div">
-            <h6 className="d-inline header-second">
+            {/* <h6 className="d-inline header-second">
               টেকনিক্যাল ট্রেইনিং | স্কিল অ্যাসেসমেন্ট | টেকনিক্যাল রিক্রুটমেন্ট
-            </h6>
+            </h6> */}
 
             <p className=" second-header-desc">
               হ্যান্ডস অন টেকনিক্যাল স্কিল শিখুন যেকোনো জায়গা থেকে। সেই সাথে
