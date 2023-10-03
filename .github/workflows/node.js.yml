@@ -34,8 +34,8 @@ jobs:
           echo "VITE_REACT_APP_API_URL=$(cat .env | grep VITE_REACT_APP_API_URL= | cut -d'=' -f2)" >> $GITHUB_ENV
           echo "VITE_REACT_APP_API_URL_DEV=$(cat .env | grep VITE_REACT_APP_API_URL_DEV= | cut -d'=' -f2)" >> $GITHUB_ENV
 
-      - name: Build the application
-        run: yarn build
+      # - name: Build the application
+      #   run: yarn build
 
       - name: Debugging Step 2
         run: echo "Debugging Step 2"
