@@ -35,7 +35,7 @@ jobs:
           echo "VITE_REACT_APP_API_URL_DEV=$(cat .env | grep VITE_REACT_APP_API_URL_DEV= | cut -d'=' -f2)" >> $GITHUB_ENV
 
       - name: Build the application
-        run: yarn build ||exit 1
+        run: NODE_OPTIONS=--max-old-space-size=4096 yarn run build ||exit 1
 
       - name: Debugging Step 2
         run: echo "Debugging Step 2"
